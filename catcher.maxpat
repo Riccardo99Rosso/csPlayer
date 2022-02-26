@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 100.0,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 287.0, 541.0, 1057.0, 118.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 576.4219970703125, 122.970283508300781, 376.0, 118.0 ],
+					"text" : "Catcher",
+					"textcolor" : [ 0.996078431606293, 0.996078431606293, 0.996078431606293, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 3,
 					"fontsize" : 16.0,
 					"id" : "obj-24",
@@ -48,7 +63,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.8486328125, 223.0, 257.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.8486328125, 235.0, 448.0, 24.0 ],
+					"presentation_rect" : [ 93.205375671386719, 256.913818359375, 448.0, 24.0 ],
 					"text" : "Use the patch \"Consumer\" to play tracks you've captured"
 				}
 
@@ -64,7 +79,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 263.8486328125, 63.214279174804688, 161.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.8486328125, 202.214279174804688, 334.658935546875, 20.0 ],
+					"presentation_rect" : [ 93.205375671386719, 224.128173828125, 334.658935546875, 20.0 ],
 					"text" : "play the track and press on the midi keyboard to record",
 					"textcolor" : [ 0.82745099067688, 0.682352960109711, 0.682352960109711, 1.0 ]
 				}
@@ -81,7 +96,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 252.8486328125, 59.711288452148438, 257.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.8486328125, 168.0, 352.348846435546875, 24.0 ],
+					"presentation_rect" : [ 93.205375671386719, 189.913818359375, 352.348846435546875, 24.0 ],
 					"text" : "Use the midi keyboard to capture sounds"
 				}
 
@@ -109,24 +124,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 262.790008544921875, 410.850006103515625, 257.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.8486328125, 29.0, 352.348846435546875, 24.0 ],
+					"presentation_rect" : [ 93.205375671386719, 50.913825988769531, 352.348846435546875, 24.0 ],
 					"text" : "Use the keyboard to control the music track "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 72.0,
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 629.30517578125, 84.846061706542969, 6168.0, 87.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 430.014984130859375, 536.65740966796875, 275.1875, 87.0 ],
-					"style" : "redness",
-					"text" : "Catcher",
-					"textcolor" : [ 0.960784316062927, 0.82745099067688, 0.82745099067688, 1.0 ]
 				}
 
 			}
@@ -161,7 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1821.684326171875, 700.92791748046875, 203.0, 49.0 ],
-					"text" : "open C:/Users/ricca/OneDrive/Desktop/asd/58.aif"
+					"text" : "open C:/Users/ricca/OneDrive/Desktop/asd/16.aif"
 				}
 
 			}
@@ -176,10 +175,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2048.184326171875, 236.630050659179688, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.014984130859375, 444.214263916015625, 136.892852783203125, 22.678571701049805 ],
+					"presentation_rect" : [ 324.555023193359375, 457.99664306640625, 216.892852783203125, 56.362777709960938 ],
 					"rounded" : 8.0,
 					"style" : "redness",
 					"text" : "Refresh",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -209,7 +209,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1932.51416015625, 349.611114501953125, 140.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 398.692718505859375, 281.214263916015625, 495.0, 22.0 ],
+					"presentation_rect" : [ 93.205375671386719, 300.53076171875, 859.41552734375, 22.0 ],
 					"style" : "redness",
 					"text" : "C:/Users/ricca/OneDrive/Desktop/asd/"
 				}
@@ -240,10 +240,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1998.2694091796875, 177.956375122070313, 142.382980346679688, 27.127658843994141 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.0150146484375, 444.214263916015625, 133.357147216796875, 22.0 ],
+					"presentation_rect" : [ 93.205375671386719, 458.3359375, 210.199249267578125, 55.684207916259766 ],
 					"rounded" : 8.0,
 					"style" : "redness",
 					"text" : "Choose the Folder",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1,
 					"varname" : "textbutton[1]"
@@ -270,10 +271,13 @@
 					"maxclass" : "kslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
+					"offset" : 0,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2012.48095703125, 41.460182189941406, 852.0, 53.0 ],
-					"range" : 122
+					"patching_rect" : [ 2012.48095703125, 41.460182189941406, 900.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 93.205375671386719, 600.4127197265625, 825.0, 49.0 ],
+					"range" : 128
 				}
 
 			}
@@ -322,11 +326,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1814.24267578125, 552.61846923828125, 100.0, 20.0 ],
+					"patching_rect" : [ 1814.24267578125, 552.61846923828125, 90.0390625, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.0150146484375, 488.97882080078125, 296.892822265625, 45.678573608398438 ],
+					"presentation_rect" : [ 93.205375671386719, 521.9722900390625, 448.24249267578125, 57.782478332519531 ],
 					"style" : "redness",
 					"text" : "Off Recording",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"texton" : "On Recording"
 				}
 
@@ -1134,7 +1139,7 @@
 					"patching_rect" : [ 441.670074462890625, 65.044204711914063, 161.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 262.8486328125, 63.214279174804688, 482.658935546875, 87.0 ],
+					"presentation_rect" : [ 93.205375671386719, 85.128181457519531, 482.658935546875, 87.0 ],
 					"text" : "s = start                           <number> right = forward  * (<number>/100)track        \ne = end                            <number> left = backward * (<number>/100)track\np = pause                        O = loop on\nc = resume                      o = loop off\nup = volume up\ndown = volume down",
 					"textcolor" : [ 0.82745099067688, 0.682352960109711, 0.682352960109711, 1.0 ]
 				}
@@ -1148,7 +1153,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1105.5, 600.32452392578125, 48.25, 48.25 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 806.5986328125, 444.214263916015625, 90.25, 90.25 ],
+					"presentation_rect" : [ 823.96832275390625, 458.3359375, 121.418830871582031, 121.418830871582031 ],
 					"style" : "redness"
 				}
 
@@ -1166,13 +1171,13 @@
 					"patching_rect" : [ 1105.5, 534.35125732421875, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -1183,29 +1188,30 @@
 			}
 , 			{
 				"box" : 				{
+					"clipheight" : 60.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/ricca/OneDrive/Desktop/METS/I am the performance/IATP_proj/sounds_iatp/belva_one.wav",
-								"filename" : "belva_one.wav",
+								"absolutepath" : "C:/Users/ricca/OneDrive/Desktop/METS/TSO/Lez1/BaraleTSO1/Audio Files/chopin_nocturne_op_9_no_2_557229807519766502.1.L.wav",
+								"filename" : "chopin_nocturne_op_9_no_2_557229807519766502.1.L.wav",
 								"filekind" : "audiofile",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
+									"pitchshift" : [ 1.0 ],
 									"mode" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"originaltempo" : [ 120.0 ],
+									"speed" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
 									"pitchcorrection" : [ 0 ],
 									"followglobaltempo" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"speed" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
 									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"slurtime" : [ 0.0 ]
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formantcorrection" : [ 0 ]
 								}
 
 							}
@@ -1219,7 +1225,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"patching_rect" : [ 830.34423828125, 728.97369384765625, 150.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.8486328125, 324.543304443359375, 638.0, 32.0 ]
+					"presentation_rect" : [ 93.205375671386719, 346.4571533203125, 859.21661376953125, 70.197273254394531 ]
 				}
 
 			}
@@ -1279,7 +1285,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2266.0, 898.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 256.3486328125, 21.535720825195313, 649.0, 611.0 ],
+					"presentation_rect" : [ 86.705375671386719, 43.449592590332031, 872.076904296875, 613.42108154296875 ],
 					"style" : "redness"
 				}
 
@@ -2116,9 +2122,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "belva_one.wav",
-				"bootpath" : "~/OneDrive/Desktop/METS/I am the performance/IATP_proj/sounds_iatp",
-				"patcherrelativepath" : "../../../I am the performance/IATP_proj/sounds_iatp",
+				"name" : "chopin_nocturne_op_9_no_2_557229807519766502.1.L.wav",
+				"bootpath" : "~/OneDrive/Desktop/METS/TSO/Lez1/BaraleTSO1/Audio Files",
+				"patcherrelativepath" : "../../../TSO/Lez1/BaraleTSO1/Audio Files",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -2127,11 +2133,8 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
-					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
+					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -2141,9 +2144,12 @@
 						"proportion" : 0.39
 					}
 ,
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
+					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
