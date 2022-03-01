@@ -160,7 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1821.684326171875, 700.92791748046875, 203.0, 49.0 ],
-					"text" : "open C:/Users/ricca/OneDrive/Desktop/asd/16.aif"
+					"text" : "open C:/Users/ricca/OneDrive/Desktop/p_tracks/74.aif"
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 93.205375671386719, 300.53076171875, 859.41552734375, 22.0 ],
 					"style" : "redness",
-					"text" : "C:/Users/ricca/OneDrive/Desktop/asd/"
+					"text" : "C:/Users/ricca/OneDrive/Desktop/p_tracks/"
 				}
 
 			}
@@ -319,6 +319,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"id" : "obj-31",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -368,7 +369,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1842.806640625, 225.228012084960938, 50.0, 22.0 ]
+					"patching_rect" : [ 1835.945556640625, 190.228012084960938, 50.0, 22.0 ]
 				}
 
 			}
@@ -1171,13 +1172,13 @@
 					"patching_rect" : [ 1105.5, 534.35125732421875, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_mmin" : -70.0
 						}
 
 					}
@@ -1194,24 +1195,24 @@
 								"absolutepath" : "C:/Users/ricca/OneDrive/Desktop/METS/TSO/Lez1/BaraleTSO1/Audio Files/chopin_nocturne_op_9_no_2_557229807519766502.1.L.wav",
 								"filename" : "chopin_nocturne_op_9_no_2_557229807519766502.1.L.wav",
 								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.233069851738771, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
-									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"formant" : [ 1.0 ],
 									"basictuning" : [ 440 ],
 									"originallengthms" : [ 0.0 ],
+									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
 									"followglobaltempo" : [ 0 ],
-									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
+									"speed" : [ 1.0 ],
 									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
 									"quality" : [ "basic" ],
-									"formantcorrection" : [ 0 ]
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ]
 								}
 
 							}
@@ -2133,8 +2134,13 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -2144,12 +2150,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
-					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2194,8 +2195,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2204,8 +2205,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
