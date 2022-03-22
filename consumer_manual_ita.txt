@@ -1,0 +1,13 @@
+
+
+Catcher-Consumer
+
+
+Manuale sul Consumer:
+La patch si occupa di suonare, attraverso una tastiera MIDI, i suoni precedentemente campionati
+con il Catcher.
+Dopo aver inserito una tastiera MIDI, scegliere con "Choose the folder", la cartella in cui si trovano i campioni
+registrati.
+Impostare un tempo per il fade out (in millisecondi) e, se lo si desidera, registrare il risultato scegliendo prima la cartella
+dove salvare il file con "Choose the folder (for the record)" e poi avviando la registrazione con il bottone apposito.
+Buon divertimento!

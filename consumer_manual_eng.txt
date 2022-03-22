@@ -1,0 +1,11 @@
+
+Catcher-Consumer
+
+Consumer Manual:
+The patch takes care of playing, through a MIDI keyboard, the previously sampled sounds
+with the Catcher.
+After inserting a MIDI keyboard, choose the folder where the samples are located with "Choose the folder".
+Set a time for the fade out (in milliseconds) and, if desired, record the result by choosing the folder first
+where to save the file with "Choose the folder (for the record)" and then starting the recording with the appropriate button.
+Have fun!
+

@@ -1,0 +1,28 @@
+Catcher-Consumer
+
+
+Catcher Manual:
+
+The patch samples sounds from a music track.
+It is recommended to follow the following steps:
+1)
+Choose the piece to sample with "Choose track".
+To control playback, use the computer keyboard, with the following commands:
+s = start
+e = stop
+p = pause
+c = continue
+O = loop on
+o = loop off
+up arrow = increase volume
+down arrow = lower volume
+<number> right arrow = <number> / 100 track forward
+<number> left arrow = <number> / 100 of track backward
+Do not keep the arrows pressed if you want to repeat the operation several times but press them again.
+2)
+Choose where to save the samples with "Choose the folder" (it is recommended to choose an empty folder).
+Set the fade in and fade out time (in milliseconds).
+While the track is playing, use a previously attached MIDI keyboard to record the samples.
+When a key is pressed, recording will begin, which will stop when the key is released.
+To use samples recorded with the MIDI keyboard, use the Consumer patch.
+

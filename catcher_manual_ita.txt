@@ -1,0 +1,29 @@
+
+
+Catcher-Consumer
+
+
+Manuale sul Catcher:
+
+La patch si occupa di campionare dei suoni partendo da una traccia musicale.
+Si consiglia di seguire i seguenti passi:
+1)
+Scegliere il pezzo da campionare con "Choose track".
+Per pilotare la riproduzione, utilizzare la tastiera del computer, con i seguenti comandi:
+s = da capo                                  
+e = stop                              
+p = pausa 
+c = continuare 
+O = loop on
+o = loop off
+freccia su = aumenta volume
+freccia giù = abbassa volume
+<numero> freccia destra = avanti di <numero>/100 di traccia
+<numero> freccia sinistra = indietro di <numero>/100 di traccia
+Non tenere premute le frecce se si vuole rieffettuare l'operazione più volte ma ripremere nuovamente.
+2)
+Scegliere dove salvare i campioni con "Choose the folder" (si consiglia di scegliere una cartella vuota).
+Impostare il tempo di fade in e fade out (in millisecondi).
+Mentre la traccia è in riproduzione, utilizzare una tastiera MIDI precedentemente attaccata per registrare i campioni.
+Quando un tasto verrà premuto, inizierà la registrazione, che si fermerà nel momento in cui il tasto verà rilasciato.
+Per utilizzare i campioni registrati con la tastiera MIDI, utilizzare la patch Consumer.
