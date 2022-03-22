@@ -41,6 +41,23 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
+					"fontface" : 3,
+					"fontsize" : 60.0,
+					"id" : "obj-260",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 633.9981689453125, 328.5709228515625, 680.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 356.1572265625, 8.870407104492188, 373.93505859375, 74.0 ],
+					"text" : "Consumer",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
 					"fontsize" : 20.0,
 					"id" : "obj-275",
 					"maxclass" : "comment",
@@ -12388,13 +12405,13 @@
 					"presentation_rect" : [ 310.624755859375, 356.720306396484375, 465.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -20162,9 +20179,9 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -20175,10 +20192,10 @@
 						"proportion" : 0.39
 					}
 ,
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ]
+					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
+					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

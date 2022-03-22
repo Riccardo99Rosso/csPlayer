@@ -49,7 +49,7 @@
 					"patching_rect" : [ 633.9981689453125, 328.5709228515625, 680.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 372.634552001953125, 17.050722122192383, 246.935073852539063, 74.0 ],
-					"text" : "Cacther",
+					"text" : "Catcher",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1466,13 +1466,13 @@
 					"patching_rect" : [ 1105.5, 534.35125732421875, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -2577,11 +2577,10 @@
 		"styles" : [ 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
 					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"elementcolor" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
 					"selectioncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.65098, 0.666667, 0.662745, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -2593,6 +2592,7 @@
 					}
 ,
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
